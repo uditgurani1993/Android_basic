@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="uditgurani.com.working_radiobutton.MainActivity">
+
+    <TextView
+        android:text="Selected Fruits"
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:textAppearance"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup1"
+        android:layout_below="@id/txt1"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:id="@+id/fruit_apple"
+            android:onClick="selectFruit"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grapes"
+            android:id="@+id/fruit_grapes"
+            android:onClick="selectFruit"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mango"
+            android:id="@+id/fruit_mango"
+            android:onClick="selectFruit"
+            />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/selecttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiogroup1"
+        android:text="Selected Item"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:textAppearance"
+        android:textSize="20dp"
+        />
+</RelativeLayout>

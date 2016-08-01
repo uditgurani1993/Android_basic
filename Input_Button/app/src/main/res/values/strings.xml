@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Input_Button</string>
+
+    <string-array name="Country">
+        <item>USA</item>
+        <item>India</item>
+        <item>Australia</item>
+        <item>NewZealand</item>
+        <item>Pakistan</item>
+        <item>USA1</item>
+        <item>USA2</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Working_Spinner</string>
+    <string-array name="countryName">
+        <item>Usa</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>England</item>
+        <item>America</item>
+        <item>North-America</item>
+    </string-array>
+</resources>

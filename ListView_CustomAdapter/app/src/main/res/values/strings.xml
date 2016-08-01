@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Top 10 Movies</string>
+    <string-array name="movie_title">
+        <item>Horror</item>
+        <item>Thriller</item>
+        <item>Action</item>
+        <item>Fire</item>
+        <item>Dummy</item>
+        <item>Secret</item>
+        <item>Horror</item>
+    </string-array>
+    <string-array name="movie_rating">
+        <item>Rating:8/10</item>
+        <item>Rating:7/10</item>
+        <item>Rating:5/10</item>
+        <item>Rating:4/10</item>
+        <item>Rating:7/10</item>
+        <item>Rating:8/10</item>
+        <item>Rating:9/10</item>
+    </string-array>
+</resources>
